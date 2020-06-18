@@ -10,3 +10,18 @@ body {
   padding-top: 100px;
   color: #fff;
 }
+
+@media (max-width: 670px) {
+  body {
+    background-image: url(smile.jpg);
+    background-size: cover;
+    width: 670px;
+  }
+
+  body {
+    width: 800px;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+  }
+}
