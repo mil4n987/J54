@@ -14,7 +14,6 @@ body {
 @media (max-width: 670px) {
   body {
     background-image: url(smile.jpg);
-    background-size: cover;
     width: 670px;
   }
 
