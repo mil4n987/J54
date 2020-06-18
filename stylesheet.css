@@ -1,26 +1,31 @@
 body {
+  background-color:	#f6bf0a;
   background-image: url(smile.jpg);
   background-size: cover;
-  width: 1170px;
 }
 
 body {
   width: 1300px;
   text-align: center;
   padding-top: 100px;
-  color: #fff;
+  color: #FFF;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
+  .smile {
+    display: none;
+  }
+}
+
+
+@media (max-width: 670px) {
   body {
     background-image: url(smile.jpg);
-    width: 670px;
-  }
-
-  body {
-    width: 800px;
     text-align: center;
     padding-top: 100px;
-    color: #00BFFF;
+    color: #fff;
+  }
+  .smile {
+    max-width: 25%
   }
 }
