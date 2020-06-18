@@ -1,0 +1,12 @@
+body {
+  background-image: url(smile.jpg);
+  background-size: cover;
+  width: 1170px;
+}
+
+body {
+  width: 1300px;
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
