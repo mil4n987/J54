@@ -11,7 +11,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 100px) {
+@media (max-width: 1000px) {
   body {
     background-image: url(smile.jpg);
     width: 670px;
