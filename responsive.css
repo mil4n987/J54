@@ -1,5 +1,5 @@
 /* For Tablet */
-@media (max-wdith: 1000px) {
+@media (max-width: 1000px) {
   /* species-wrapper */
     .spc {
         flex-direction: column;
