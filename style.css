@@ -426,25 +426,25 @@ footer a:hover {
 }
 
 .liliales {
-  background-image: url(Images/liliales.jpg);
+  background-image: url(liliales.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .asteraceae {
-  background-image: url(Images/asteraceae.jpg);
+  background-image: url(asteraceae.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .rosaceae {
-  background-image: url(Images/rosaceae.jpg);
+  background-image: url(Rosaceae.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .orchidaceae {
-  background-image: url(Images/orchidaceae.jpg);
+  background-image: url(orchidaceae.jpg);
   background-size: cover;
   background-position: center;
 }
