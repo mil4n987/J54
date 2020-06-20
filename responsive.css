@@ -1,45 +1,76 @@
 /* For Tablet */
 @media (max-wdith: 1000px) {
+  /* species-wrapper */
+    .spc {
+        flex-direction: column;
+        height: max-content;
+    }
+    .heading {
+        width: 95%;
+        height: max-content;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .flower-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .species-list {
+        margin: 0 10px 0 10px;
+        width: 40%;
+    }
+    .pict > img {
+        width: 200px;
+    }
+    /* color-wrapper */
+    .clr {
+        height: max-content;
+    }
 
+    /* footer */
+    footer {
+        justify-content: space-between;
+    }
+    .footer-left {
+        width: max-content;
+    }
+    .list {
+        padding: 0 10px 0 10px;
+    }
 }
 
 /* For Smartphone */
 @media (max-width: 670px) {
-  .box p {
-    font-weight: bold;
-    color: orange;
-  }
-  header {
-      align-items: center;
-      width: 100%;
-      background-color: rgba(245, 239, 223, 0.8);
-      z-index: 10;
-  }
-
-  .header-left {
-      display: block;
-      margin-left: 0px;
-  }
-  .header-left .fa-tree,
-  .footer-icon .fa-tree {
-      padding-right: 15px;
-      font-size: 32px;
-      color: rgb(11, 179, 109);
-  }
-  .navbar {
-    margin-left: 0px;
-    text-align: center;
-  }
-  nav li {
-      padding: 30px 10px;
-      transition: 0.5s;
-  }
-  .header-right {
-  	padding: 30px 20px;
-  	background-color: rgb(224, 151, 40);
-  	transition: 0.5s;
-  	cursor: pointer;
-  }
+  /*  Winticha's code here  */
+      /* header */
+    header {
+        flex-wrap: wrap;
+        padding: 0 10px;
+        height: 50px;
+    }
+    
+    h1,
+    .header-left .fa,
+    .footer-left .fa {
+        font-size: 24px;
+    }
+    nav {
+        display: none;
+    }
+    .header-right {
+        padding: 15px;
+    }
+    .login {
+        padding: 0 50px;
+        font-size: 14px;
+    }
+    .menu-icon {
+        font-size: 24px;
+        display: block;
+    }
+  /*  Winticha's code ends here*/
+  
+  /* top-wrapper */
   .box {
     margin-top: 78px;
     margin-left: 30px;
@@ -48,6 +79,10 @@
     border: 1px solid black;
     height: 440px;
   }
+  .box p {
+    font-weight: bold;
+    color: orange;
+  }
   .box-content {
     margin-top: 17%;
     margin-left: 50px;
@@ -55,29 +90,78 @@
   .about-main {
     display: block;
   }
-  .content-main {
-    display: block;
-  }
-  .flower-list {
-    margin-top: 1450px;
-    display: flex;
-    flex-direction: column;
-  }
-  .species-list {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      margin-right: 20px;
-  }
-  .desc-box {
-    background-color: rgba(68, 67, 27, 0.6);
-    height: 100%;
-    border: 1px solid black;
-  }
-  .liliales, .asteraceae, .rosaceae, .orchidaceae {
-    text-align: center;
-  }
-  .heading {
-    display: none;
-  }
+  
+  /*  Winticha's code here  */
+  /* species-wrapper */
+    .spc {
+        flex-direction: column;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .heading {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: max-content;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .flower-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .species-list {
+        width: 50%;
+        margin: 0 auto 10px auto;
+    }
+    .description {
+        display: none;
+    }
+
+    /* color-wrapper */
+    .color {
+        width: 100px;
+        height: 50px;
+        padding: 10px;
+        font-size: 14px;
+    }
+  
+    /* footer */
+    footer {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .footer-left {
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+    .footer-left p {
+        font-size: 14px;
+    }
+    .footer-icon {
+        padding-bottom: 5px;
+        justify-content: center;
+    }
+    .terms {
+        justify-content: center;
+        font-size: 12px;
+    }
+    .terms a {
+        padding: 0 10px;
+    }
+    .footer-right {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+  /*  Winticha's code stops here*/
 }
