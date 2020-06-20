@@ -25,6 +25,9 @@
     .clr {
         height: max-content;
     }
+    .clr .heading {
+        height: max-content;
+    }
 
     /* footer */
     footer {
@@ -70,7 +73,7 @@
   
   /* top-wrapper */
   .box {
-    margin-top: 60px;
+    margin-top: 78px;
     margin-left: 30px;
     margin-right: 30px;
     background-color: rgba(68, 67, 27, 0.75);
@@ -84,7 +87,6 @@
   .box-content {
     margin-top: 17%;
     margin-left: 50px;
-    margin-right: 10px;
   }
   .about-main {
     display: block;
@@ -98,7 +100,7 @@
     }
     .heading {
         text-align: center;
-      margin: 0 auto;
+      margin: 0 auto 20px auto;
       height: max-content;
     }
     h2 {
@@ -119,10 +121,7 @@
     .description {
         display: none;
     }
-    .liliales {
-      margin-top: 30px;
-    }
-  
+
     /* color-wrapper */
     .color {
         width: 100px;
