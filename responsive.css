@@ -94,7 +94,7 @@
     .spc {
         flex-direction: column;
         margin: 0 auto;
-        height: 800px;
+        height: 100%;
     }
     .heading {
         text-align: center;
@@ -112,7 +112,7 @@
         margin: 0 auto;
     }
     .species-list {
-        width: 50%;
+        width: 25%;
         margin: 0 auto 10px auto;
     }
     .description {
