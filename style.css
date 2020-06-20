@@ -255,7 +255,7 @@ h3 {
 }
 
 .desc-box {
-  background-color: rgba(68, 67, 27, 0.6);
+  background-color: rgba(255, 165, 0, 0.5);
   height: 330px;
   border: 1px solid black;
 }
@@ -365,7 +365,7 @@ footer a:hover {
 }
 
 .navbar {
-  margin-left: 761px;
+  margin-left: 0px;
 }
 
 /* End of Fjolfnir's Code */
