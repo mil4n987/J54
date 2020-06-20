@@ -118,16 +118,16 @@ nav li:hover {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    height: 600px;
+    height: 500px;
     padding: 20px;
     background-color: burlywood;
 }
 
 .heading {
-    height: 400px;
-    padding: 20px;
-    margin-right: 30px;
-    background-color: rgb(247, 243, 239, 0.6);
+    height: 500px;
+    padding: 30px;
+    margin-right: 10px;
+    background-color: rgba(247, 243, 239, 0.75);
 }
 
 h2 {
@@ -185,6 +185,17 @@ h3 {
     backface-visibility: hidden;
 }
 
+.pict {
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 10px;
+}
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -214,10 +225,18 @@ h3 {
 }
 
 .description {
-    width: 100%; 
+    width: 100%;
+    height: 100%;
     text-align: justify;
     font-size: 14px;
     color: rgb(250, 248, 246);
+    background-color: rgba(255, 165, 0, 0.6);
+    padding: 10px;
+}
+
+.desc-title {
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 /* color-wrapper style */
@@ -259,7 +278,7 @@ h3 {
     padding: 40px;
     text-align: center;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .color:hover {
@@ -396,6 +415,38 @@ footer a:hover {
 .navbar {
   margin-left: 0px;
   text-align: center;
+}
+
+.head-title {
+  text-align: center;
+}
+
+.head-desc {
+  text-align: justify;
+}
+
+.liliales {
+  background-image: url(Images/liliales.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.asteraceae {
+  background-image: url(Images/asteraceae.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.rosaceae {
+  background-image: url(Images/rosaceae.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.orchidaceae {
+  background-image: url(Images/orchidaceae.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* End of Fjolfnir's Code */
