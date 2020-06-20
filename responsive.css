@@ -47,7 +47,6 @@
         padding: 0 10px;
         height: 50px;
     }
-    
     h1,
     .header-left .fa,
     .footer-left .fa {
@@ -95,12 +94,11 @@
     .spc {
         flex-direction: column;
         margin: 0 auto;
-        height: max-content;
+        height: 100%;
     }
     .heading {
         text-align: center;
-        margin-right: 0;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
         height: max-content;
     }
     h2 {
@@ -111,11 +109,11 @@
     }
     .flower-list {
         justify-content: center;
-        margin: 0 auto 0 auto;
+        margin: 0 auto;
     }
     .species-list {
-        width: 25%;
-        margin: 0 auto 10px auto;
+        width: 50%;
+        margin: 0 10px 10px 10px;
     }
     .description {
         display: none;
