@@ -169,6 +169,7 @@ h3 {
     flex-direction: column;
     width: 20%;
     margin-right: 20px;
+    background-color: rgb(235, 177, 52, 0.6);
 }
 .flower-icon {
     position: relative;
