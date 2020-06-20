@@ -94,7 +94,6 @@
     .spc {
         flex-direction: column;
         margin: 0 auto;
-        height: 100%;
     }
     .heading {
         text-align: center;
