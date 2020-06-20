@@ -117,7 +117,7 @@ nav li:hover {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    height: 600px;
+    height: 630px;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -136,7 +136,7 @@ nav li:hover {
 
 .heading-box {
     margin-top: 170px;
-    height: 600px;
+    height: 630px;
     background-color: rgb(247, 243, 239, 0.6);
 }
 
