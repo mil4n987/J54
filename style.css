@@ -254,6 +254,24 @@ h3 {
     color: rgb(250, 248, 246);
 }
 
+.desc-box {
+  background-color: rgba(68, 67, 27, 0.6);
+  height: 330px;
+  border: 1px solid black;
+}
+
+.desc-content {
+  padding: 5px;
+}
+
+.desc-content a {
+  color: rgb(0, 248, 246)
+}
+
+.desc-title {
+  margin-bottom: 5px;
+}
+
 /* color-wrapper style */
 
 /* contacts-wrapper style */
