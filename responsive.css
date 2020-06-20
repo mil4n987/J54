@@ -94,12 +94,11 @@
     .spc {
         flex-direction: column;
         margin: 0 auto;
-        height: 900px;
+        height: 100%;
     }
     .heading {
         text-align: center;
         margin: 0 auto 20px auto;
-        height: max-content;
     }
     h2 {
         font-size: 24px;
