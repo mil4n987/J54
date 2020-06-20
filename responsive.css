@@ -97,7 +97,7 @@
     }
     .heading {
         text-align: center;
-      margin: 0 auto;
+      margin: 0 auto 20px auto;
       height: max-content;
     }
     h2 {
