@@ -169,7 +169,6 @@ h3 {
     flex-direction: column;
     width: 20%;
     margin-right: 20px;
-    background-color: rgb(235, 177, 52, 0.6);
 }
 .flower-icon {
     position: relative;
@@ -215,10 +214,13 @@ h3 {
 }
 
 .description {
+    margin-top: 10px;
+    padding: 10px;
     width: 100%; 
     text-align: justify;
     font-size: 14px;
     color: rgb(250, 248, 246);
+    background-color: rgb(235, 177, 52, 0.6);
 }
 
 /* color-wrapper style */
