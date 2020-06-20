@@ -449,4 +449,16 @@ footer a:hover {
   background-position: center;
 }
 
+.popular-species h5 {
+  font-size: 16px;
+}
+
+.contact-list h5 {
+  font-size: 16px;
+}
+
+.head-desc {
+  text-align: center;
+}
+
 /* End of Fjolfnir's Code */
