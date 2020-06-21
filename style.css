@@ -251,17 +251,16 @@ h3 {
 }
 .clr .heading {
     margin: 0 auto;
-    height: 200px;
+    height: max-content;
     width: 90%;
     opacity: 0.95;
 }
 
-.clr h2 {
+.clr h2,
+.clr h3,
+.ctc h2,
+.ctc h3 {
     color: rgb(26, 22, 22, 0.8);
-}
-
-.clr h3 {
-    color: rgb(26, 34, 26, 0.8);
 }
 
 .colors {
@@ -327,6 +326,53 @@ h3 {
 /*   Winticha's code  starts here   :D   */
 
 /* contacts-wrapper style */
+.ctc {
+    align-items: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTG8pKKxHzJZivUKqBRs6VbNNGJdXO2r8IHzQvZ0BJrEIcOuert&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    height: 400px;
+    font-family: "Piedra", cursive;
+}
+
+.ctc .heading {
+    left: 0;
+    margin: 0;
+    width: 55%;
+    height: 200px;
+    text-align: left;
+}
+
+.socmed{
+    padding: 30px;
+    margin: 0 0 0 20px;
+    width: 100%;
+    font-size: 48px;
+    color: orange;
+    text-align: center;
+    background-color: rgb(129, 3, 3, 0.6);
+}
+
+.socmed a {
+    color: orange;
+    opacity: 0.8;
+}
+
+.socmed:hover {
+    opacity: 1;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button .fa {
+    padding-right: 20px;
+}
 
 /*    Winticha's code  starts here   :D    */
 /* footer */
