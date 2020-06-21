@@ -84,6 +84,7 @@
   .box-content {
     margin-top: 17%;
     margin-left: 50px;
+    height: max-content;
   }
   .about-main {
     display: block;
@@ -119,6 +120,9 @@
     }
 
     /* color-wrapper */
+    .clr {
+       height: 100%;
+    }
     .color {
         width: 100px;
         height: 50px;
