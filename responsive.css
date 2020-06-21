@@ -124,9 +124,6 @@
     }
 
     /* color-wrapper */
-    .clr {
-       height: 100%;
-    }
     .color {
         width: 100px;
         height: 50px;
@@ -136,10 +133,8 @@
     
     /* contacts-wrapper */
     .ctc {
+        flex:direction: column;
         height: 300px;
-    }
-    .ctc .heading {
-        height: max-content;
     }
     .socmed {
         font-size: 32px;
