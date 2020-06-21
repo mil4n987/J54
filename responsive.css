@@ -109,7 +109,6 @@
     .flower-list {
         flex-wrap: no-wrap;
         justify-content: center;
-        margin: 0 auto;
     }
     .species-list {
         width: 100%;
@@ -125,6 +124,17 @@
         height: 50px;
         padding: 10px;
         font-size: 14px;
+    }
+    
+    /* contacts-wrapper */
+    .ctc {
+        height: 300px;
+    }
+    .ctc .heading {
+        height: max-content;
+    }
+    .socmed {
+        font-size: 32px;
     }
   
     /* footer */
