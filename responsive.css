@@ -133,11 +133,12 @@
     
     /* contacts-wrapper */
     .ctc {
-        flex:direction: column;
-        height: 300px;
+        flex-direction: column;
+        margin: 0 auto;
     }
     .socmed {
-        font-size: 32px;
+        margin: 0 auto;
+        font-size: 26px;
     }
   
     /* footer */
