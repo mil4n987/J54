@@ -77,7 +77,7 @@
     height: 440px;
   }
   .box {
-    margin-top: 70px;
+    margin: 70px 10px 0 10px;
     height: max-content;
   }
   .title {
@@ -144,9 +144,10 @@
     }
     .ctc .heading {
         Width: 90%;
+        text-align: center;
     }
     .socmed {
-        margin: 20px auto 0 auto;
+        margin: 30px auto 0 auto;
         width: 80%;
         font-size: 32px;
     }
