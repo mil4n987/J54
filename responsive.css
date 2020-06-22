@@ -88,9 +88,10 @@
   .box p {
     font-weight: bold;
     color: orange;
+    margin-right: 5px;
   }
   .box-content {
-    margin: 50px 0 0 50px;
+    margin: 50px 0 5opx 50px;
     height: max-content;
   }
   .about-main {
