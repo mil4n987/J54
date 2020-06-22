@@ -74,10 +74,10 @@
   
   /* top-wrapper */
   .box {
-    margin: 20px 30px;
+    margin: 50px 30px 0 30px;
     background-color: rgba(68, 67, 27, 0.75);
     border: 1px solid black;
-    height: 440px;
+    height: max-content;
   }
   .box p {
     font-weight: bold;
@@ -100,8 +100,8 @@
     }
     .heading {
         text-align: center;
-      margin: 0 auto 20px auto;
-      height: max-content;
+        margin: 0 auto 20px auto;
+        height: max-content;
     }
     h2 {
         font-size: 24px;
@@ -133,6 +133,10 @@
     .ctc {
         flex-direction: column;
         margin: 0 auto;
+        height: 100%;
+    }
+    .ctc .heading {
+        Width: 95%;
     }
     .socmed {
         margin: 0 auto;
