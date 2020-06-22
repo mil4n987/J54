@@ -74,7 +74,7 @@
   
   /* top-wrapper */
   .cover {
-    height: 100%;
+    height: 440px;
   }
   .box {
     margin-top: 70px;
@@ -92,7 +92,7 @@
     margin-right: 5px;
   }
   .box-content {
-    margin: 50px 0 5opx 50px;
+    margin-top: 20px;
     height: max-content;
   }
   .about-main {
@@ -146,9 +146,9 @@
         Width: 90%;
     }
     .socmed {
-        margin: 0 auto;
+        margin: 20px auto 0 auto;
         width: 80%;
-        font-size: 26px;
+        font-size: 32px;
     }
   
     /* footer */
