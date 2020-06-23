@@ -146,6 +146,7 @@
     .socmed {
         margin: 30px auto 0 auto;
         width: 80%;
+        height: max-content;
         font-size: 32px;
     }
   
