@@ -140,7 +140,8 @@
         height: 100%;
     }
     .ctc .heading {
-        Width: 90%;
+        width: 90%;
+        height: max-content;
         text-align: center;
     }
     .socmed {
