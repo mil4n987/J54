@@ -132,14 +132,12 @@
         padding: 10px;
         font-size: 14px;
     }
-    .ctc .more {
-      margin-bottom: 20px;
-    }
-    
+   
     /* contacts-wrapper */
     .ctc {
         flex-direction: column;
         margin: 0 auto;
+        height: 100%;
     }
     .ctc .heading {
         Width: 90%;
