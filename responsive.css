@@ -18,9 +18,6 @@
         margin: 0 10px 0 10px;
         width: 40%;
     }
-    .pict > img {
-        width: 200px;
-    }
     /* color-wrapper */
     .clr {
         height: max-content;
@@ -135,12 +132,14 @@
         padding: 10px;
         font-size: 14px;
     }
+    .ctc .more {
+      margin-bottom: 20px;
+    }
     
     /* contacts-wrapper */
     .ctc {
         flex-direction: column;
         margin: 0 auto;
-        height: 100%;
     }
     .ctc .heading {
         Width: 90%;
