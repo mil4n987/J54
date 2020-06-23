@@ -243,7 +243,7 @@ h3 {
 .clr {
     flex-direction: column;
     width: 100%;
-    height: 600px;
+    height: 550px;
     text-align: center;
     background: url("https://www.publicdomainpictures.net/pictures/290000/velka/colorful-flowers-blooming.jpg");
     background-repeat: none;
@@ -340,7 +340,7 @@ h3 {
     left: 0;
     margin: 0;
     width: 55%;
-    height: 200px;
+    height: max-content;
     text-align: left;
 }
 
